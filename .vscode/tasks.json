@@ -37,6 +37,23 @@
 			"group": "build",
 			"isBackground": false,
 			"problemMatcher": []
+		},
+		{
+			"label": "Preview QMD as PDF",
+			"type": "shell",
+			"command": "/workspaces/Governance-AI-in-Conflict/.venv/bin/python",
+			"args": [
+				"academic_pdf_clean.py"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": [],
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared"
+			}
 		}
 	]
 }
