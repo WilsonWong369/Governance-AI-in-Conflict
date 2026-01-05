@@ -1,0 +1,20 @@
+% Your own BibTeX file for references.
+
+% Add additional sources in the same format as below.
+
+% HINT: Use ChatGPT to format sources by providing the citation
+% details and asking for the BibTeX format.
+
+% IMPORTANT: Never use chatgpt to generate the content of sources.
+
+@article{edwards2018political,
+  author       = {Edwards, Lindy},
+  title        = {Political Donations in Australia: What the Australian Electoral Commission Disclosures Reveal and What They Don't},
+  journal      = {Australian Journal of Public Administration},
+  volume       = {77},
+  number       = {3},
+  pages        = {392--403},
+  year         = {2018},
+  doi          = {10.1111/1467-8500.12283},
+  url          = {https://doi.org/10.1111/1467-8500.12283}
+}
