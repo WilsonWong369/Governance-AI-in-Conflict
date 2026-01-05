@@ -4,12 +4,35 @@
 		{
 			"label": "Render Quarto to PDF",
 			"type": "shell",
-			"command": "quarto",
+			"command": "cp",
 			"args": [
+				"Abstract/Abstract_draft.qmd",
+				"/tmp/quarto-project/Abstract/",
+				"&&",
+				"cd",
+				"/tmp/quarto-project",
+				"&&",
+				"quarto",
 				"render",
 				"Abstract/Abstract_draft.qmd",
 				"--to",
-				"pdf"
+				"pdf",
+				"&&",
+				"cp",
+				"Abstract/Abstract_draft.pdf",
+				"${workspaceFolder}/Abstract/"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Quick PDF Render",
+			"type": "shell",
+			"command": "bash",
+			"args": [
+				"-c",
+				"cp '${file}' /tmp/quarto-project/Abstract/ && cd /tmp/quarto-project && quarto render Abstract/Abstract_draft.qmd --to pdf && echo 'PDF rendered successfully in /tmp/quarto-project/Abstract/'"
 			],
 			"group": "build",
 			"isBackground": false,
