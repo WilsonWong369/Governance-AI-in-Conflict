@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Render Quarto to PDF",
+			"type": "shell",
+			"command": "quarto",
+			"args": [
+				"render",
+				"Abstract/Abstract_draft.qmd",
+				"--to",
+				"pdf"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
