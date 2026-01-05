@@ -1,0 +1,51 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.pdfsync
+*.alg
+*.loa
+*.nav
+*.snm
+*.vrb
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.ist
+*.idx
+*.ind
+*.ilg
+
+# PDF outputs (optional - uncomment if you don't want to track PDFs)
+# *.pdf
+
+# LaTeX temporary files
+*.dvi
+*.ps
+*.bcf
+*.run.xml
+*.xdv
+
+# BibTeX files
+*.bib.bak
+*.bib.sav
+
+# Editor backup files
+*~
+*.swp
+*.swo
+.DS_Store
+
+# VSCode settings (optional - keep these commented out to track VSCode settings)
+# .vscode/
