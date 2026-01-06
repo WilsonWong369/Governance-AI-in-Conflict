@@ -9,8 +9,7 @@ bibliography: ../references/references.bib
 ---
 
 # Main Objectives and Research Question 
-The main objective of this research of the need of development of an robust hard law on the international stage regarding conflict using Artifical Intelligence. 
-
+The main objective of this research of the need of development of an robust hard law on the international stage regarding conflict using Artifical Intelligence.
 
 
 Main Research Question: Has the Ukraine–Russia war led international institutions to change or strengthen their governance frameworks for military AI?
