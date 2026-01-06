@@ -1,0 +1,20 @@
+{
+    "workbench.statusBar.items": [
+        {
+            "id": "qmd.preview",
+            "name": "Preview QMD",
+            "text": "$(eye) Preview PDF",
+            "tooltip": "Generate and preview QMD as PDF",
+            "command": "workbench.action.tasks.runTask",
+            "arguments": ["Preview QMD as PDF"]
+        }
+    ],
+    "keybindings": [
+        {
+            "key": "ctrl+shift+p",
+            "command": "workbench.action.tasks.runTask",
+            "args": "Preview QMD as PDF",
+            "when": "editorLangId == markdown"
+        }
+    ]
+}
