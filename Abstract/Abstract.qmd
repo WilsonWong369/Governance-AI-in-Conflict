@@ -2,33 +2,15 @@
 title:        "Abstract and Introduction" 
 author:       "Wilson Wong"
 course:       "Governance of AI in Conflict"
-professor:    "Dr. [Professor Name]"
+professor:    "Dr. Julian Campisi"
+course:      "POLD02"
 date:         "January 5, 2026"
 bibliography: references/references.bib
 ---
 
-# Abstract
+# Abstract 
 
 Artificial Intelligence (AI) has rapidly integrated into modern conflict by reshaping how warfare operates, targeting systems function, and military technology is deployed. The 2022 Russia-Ukraine war has highlighted significant challenges regarding both weapons systems and the legal and governance frameworks governing AI use, raising concerns about accountability, the rules of war, and the adequacy of current international regulatory frameworks. Despite the growing deployment of AI in military contexts, there remains limited empirical analysis of whether international institutions have meaningfully adapted their governance responses in light of this conflict.
 
 This study examines whether the Ukraine-Russia war constitutes a critical juncture in the global governance of military AI. Drawing on theories of global governance and historical institutionalism, this research analyzes how international institutions respond to major security shocks and technological disruptions, with particular focus on the distinction between hard-law and soft-law regulatory approaches. The study employs a qualitative research design based on document analysis and thematic analysis of official government documents, reports, and statements issued by international institutions between 2015-2025. It tests the hypothesis that intergovernmental organizations produce a greater number of AI governance outputs in the two years following the invasion. By examining the content of these outputs, this research assesses whether institutional responses represent incremental adaptation or more substantial governance change. The findings aim to contribute to broader debates on AI governance, global security, and institutional change in the context of modern warfare.
 
-# Introduction
-
-The integration of artificial intelligence into military operations represents one of the most significant technological developments in modern warfare. The ongoing conflict in Ukraine has served as a testing ground for various AI-enabled systems, from autonomous drones to sophisticated targeting algorithms, fundamentally altering the nature of contemporary combat.
-
-# Literature Review
-
-This section will examine existing scholarship on AI governance, international institutions, and technological disruption in security contexts. The literature reveals significant gaps in understanding how global governance mechanisms adapt to rapid technological change, particularly in the context of military applications.
-
-# Methodology
-
-This research employs a qualitative approach using document analysis and thematic analysis of institutional outputs. The study examines official statements, resolutions, and policy documents from key international organizations including the United Nations, NATO, and the European Union.
-
-# Expected Findings
-
-Preliminary analysis suggests that international institutions have demonstrated varied responses to the challenges posed by military AI, with some organizations pursuing adaptive strategies while others maintain more traditional approaches to governance.
-
-# Conclusion
-
-The governance of AI in conflict represents a critical challenge for international institutions. Understanding institutional adaptation mechanisms will be essential for developing effective regulatory frameworks for emerging military technologies.
