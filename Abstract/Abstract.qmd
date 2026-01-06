@@ -3,9 +3,9 @@ title:        "Abstract and Introduction"
 author:       "Wilson Wong"
 course:       "Governance of AI in Conflict"
 professor:    "Dr. Julian Campisi"
-course:      "POLD02"
+course_code:  "POLD02"
 date:         "January 5, 2026"
-bibliography: references/references.bib
+bibliography: ../references/references.bib
 ---
 
 # Main Objectives and Research Question 
