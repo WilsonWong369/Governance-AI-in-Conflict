@@ -8,9 +8,17 @@ date:         "January 5, 2026"
 bibliography: references/references.bib
 ---
 
-# Abstract 
+# Main Objectives and Research Question 
+The main objective of 
 
-Artificial Intelligence (AI) has rapidly integrated into modern conflict by reshaping how warfare operates, targeting systems function, and military technology is deployed. The 2022 Russia-Ukraine war has highlighted significant challenges regarding both weapons systems and the legal and governance frameworks governing AI use, raising concerns about accountability, the rules of war, and the adequacy of current international regulatory frameworks. Despite the growing deployment of AI in military contexts, there remains limited empirical analysis of whether international institutions have meaningfully adapted their governance responses in light of this conflict.
 
-This study examines whether the Ukraine-Russia war constitutes a critical juncture in the global governance of military AI. Drawing on theories of global governance and historical institutionalism, this research analyzes how international institutions respond to major security shocks and technological disruptions, with particular focus on the distinction between hard-law and soft-law regulatory approaches. The study employs a qualitative research design based on document analysis and thematic analysis of official government documents, reports, and statements issued by international institutions between 2015-2025. It tests the hypothesis that intergovernmental organizations produce a greater number of AI governance outputs in the two years following the invasion. By examining the content of these outputs, this research assesses whether institutional responses represent incremental adaptation or more substantial governance change. The findings aim to contribute to broader debates on AI governance, global security, and institutional change in the context of modern warfare.
 
+Main Research Question: Has the Ukraine–Russia war led international institutions to change or strengthen their governance frameworks for military AI?
+
+Hypothesis: After a major security crisis intergovernmental organizations (UN, NATO) will produce more AI focused governance outputs (reports, committee mandates, or draft legal texts) in the two years following the crisis than in the two years before it. 
+
+# Abstract
+Artificial Intelligence (AI) has rapidly integrated into our world of conflict by reshaping how warfare works, targeting systems, and the deployment of military technology. The 2022 Russia-Ukraine war highlighted significant challenges regarding both weapons systems and the legal and governance frameworks governing AI use, raising concerns about accountability, the rules of war, and the adequacy of current international regulatory frameworks. Despite the growing usage of AI in military contexts, there remains limited empirical analysis of whether international institutions have meaningfully adapted their governance responses considering this conflict.
+This study will look towards the Ukraine-Russia war as a critical juncture in the global governance of military AI. Drawing on theories such as global governance and historical institutionalism, this research analyzes how international institutions respond to major security shocks and technological disruptions, especially regarding the distinction between hard-law and soft-law regulatory approaches. The study will use a qualitative research design based on document and thematic analysis of official government documents, reports, and statements issued by international institutions between 2015-2025. It will test the hypothesis that intergovernmental organizations produce a greater number of AI governance outputs in the two years after the invasion started. By examining the content of these outputs, this research assesses whether institutional responses represent incremental adaptation or more substantial governance change. The findings aim to contribute to broader debates on AI governance, global security, and institutional change in the context of modern warfare.
+
+# Introduction
