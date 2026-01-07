@@ -1,4 +1,5 @@
 ---
+Research Title: "Conflict of AI Governance"
 title:        "Abstract and Introduction" 
 author:       "Wilson Wong"
 course:       "Governance of AI in Conflict"
@@ -20,4 +21,16 @@ Hypothesis: After a major security crisis intergovernmental organizations (UN, N
 Artificial Intelligence (AI) has rapidly integrated into our world of conflict by reshaping how warfare works, targeting systems, and the deployment of military technology. The 2022 Russia-Ukraine war highlighted significant challenges regarding both weapons systems and the legal and governance frameworks governing AI use, raising concerns about accountability, the rules of war, and the adequacy of current international regulatory frameworks. Despite the growing usage of AI in military contexts, there remains limited empirical analysis of whether international institutions have meaningfully adapted their governance responses considering this conflict.
 This study will look towards the Ukraine-Russia war as a critical juncture in the global governance of military AI. Drawing on theories such as global governance and historical institutionalism, this research analyzes how international institutions respond to major security shocks and technological disruptions, especially regarding the distinction between hard-law and soft-law regulatory approaches. The study will use a qualitative research design based on document and thematic analysis of official government documents, reports, and statements issued by international institutions between 2015-2025. It will test the hypothesis that intergovernmental organizations produce a greater number of AI governance outputs in the two years after the invasion started. By examining the content of these outputs, this research assesses whether institutional responses represent incremental adaptation or more substantial governance change. The findings aim to contribute to broader debates on AI governance, global security, and institutional change in the context of modern warfare.
 
+# Literature Review
+
+
+
+
 # Introduction
+
+
+# Methodology Section 
+
+
+
+# Applying 
