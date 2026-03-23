@@ -1,0 +1,78 @@
+---
+Research Title: "Conflict of AI Governance"
+title:        "Abstract and Introduction" 
+author:       "Wilson Wong"
+course:       "Governance of AI in Conflict"
+professor:    "Dr. Julian Campisi"
+course_code:  "POLD02"
+date:         "January 5, 2026"
+bibliography: ../references/references.bib
+---
+
+# Main Objectives and Research Question 
+The main objective of this research of the need of development of an robust hard law on the international stage regarding conflict using Artificial Intelligence (AI). 
+
+
+Main Research Question: Has the Ukraine–Russia war led international institutions to change or strengthen their governance frameworks for military AI?
+
+Hypothesis: After a major security crisis intergovernmental organizations (UN, NATO) will produce more AI focused governance outputs (reports, committee mandates, or draft legal texts) in the two years following the crisis than in the two years before it. 
+
+# Abstract
+Artificial Intelligence (AI) has rapidly integrated into our world of conflict by reshaping how warfare works, targeting systems, and the deployment of military technology. The 2022 Russia-Ukraine war highlighted significant challenges regarding both weapons systems and the legal and governance frameworks governing AI use, raising concerns about accountability, the rules of war, and the adequacy of current international regulatory frameworks. Despite the growing usage of AI in military contexts, there remains limited empirical analysis of whether international institutions have meaningfully adapted their governance responses considering this conflict.
+This study will look towards the Ukraine-Russia war as a critical juncture in the global governance of military AI. Drawing on theories such as global governance and historical institutionalism, this research analyzes how international institutions respond to major security shocks and technological disruptions, especially regarding the distinction between hard-law and soft-law regulatory approaches. The study will use a qualitative research design based on document and thematic analysis of official government documents, reports, and statements issued by international institutions between 2015-2025. It will test the hypothesis that intergovernmental organizations produce a greater number of AI governance outputs in the two years after the invasion started. By examining the content of these outputs, this research assesses whether institutional responses represent incremental adaptation or more substantial governance change. The findings aim to contribute to broader debates on AI governance, global security, and institutional change in the context of modern warfare.
+
+# Introduction
+
+
+
+
+
+
+
+# Literature Review (Complete) But need for a review
+
+
+
+
+
+
+
+# Methodology Section 
+
+## Research Section
+This study will conduct a qualitative comparative document analysis to futher understand how international governmental organizations (IGOs) responded to the governanace of military domain in artifical intelligence (AI) in the post-invasion of the Russia- Ukraine invasions (2022). This approach is appropriate because of the research questions concerns of international behaviour, nromative change and governanace outputs which puts a phenomena of interpretive analysis rather than statistical measurement. The document analysis is suitable for this research because official institutional documents reflect the formal positions, tone and regulatory commitments of organisations at specific historical moments. This context of this study, official IGO dcouments has constitute direct primary evidence of institutional responses to challenge of military AI governanace, enabling systematic comparison of outputs before and after the critical date of February 24, 20222. 
+
+This selection is to only focus on IGO-level documents for this empirical literature. As @tallberg2023 demonstrate is how international institutions is the primary sites in which how AI governanace norms are developed and disseminated on the international stage. @sweijs2024 further contested that IGOs represent the main arena for the development of international norms on AI military, making their offical outputs of the most appropriate unit of analysis for the study concerned with governanace- level change. 
+
+## Process Tracing
+This study will employs the process tracing as the core part of the analytical strategy. Process tracing a method to identify and evaluate the causal mechanism connecting an independent variable, february 2022 invasion to dependent variable the quantity of binding character of IGO AI governanace outputs. it is different from descriptvie approaches, process tracing allows this research to examine whether it can idenifiy any causal pathway links a critical juncture to the institutional change @capoccia2007. 
+
+
+## Dataset Construction 
+This study conduct of 29 offical IGO documents proced betwen 2017- 2025 across five international organizations: the United Nations (UN), North Atlantic Treaty Organizatiosn (NATO), European Union (EU), rganisation for Economic Co-operation and Development (OECD) and the Council of Europe (COE). These institutions is selected because it preprent the primary multillateral governance in which how Artifical Intelligence governanace norms are being establish as they collectively account for the greater and widely cited governance outputs in the period under study (@tallberg2023;@osimen2024). 
+
+These documents sourced from offical institutional archives, government datasets and authenticated policy databases to ensure of there authenticity and validity in the research. The inclusion criteria required each document must constitute a fromal instituional output which is including resolutions, policy briefs, adopted framework, treaty, acts and offical AI governanace principles that is issued by one of the five designated IGOs. National governmants, NGOs reports were excluded to maintain focus on formal intergovernmental governanace outputs. 
+
+The cricial divided is February 24th 2022 as this is the date where the invasion had begin. Documents are classified as pre-invasion (N=4) or post-invasion (N=25) it is based on its publication date to divided the document. This classification allows a direct empirical comparison of these instituional output amounts and its character before and after the invasion. Which allows to built a foundation for assessing whether the conflict constitutes a critical juncture in the governanace of military AI (@capoccia2007). 
+
+## Analytical Framework
+
+The study will apply Historical Instituitonalism (HI) as its primary tehoretical lens. HI assist a the framework to understand how governanace strctures emerge, envolve and establish for long-term institutional trajectories shaped by a path-dependent constraints (@thelen1999). As @mahoney2010 establish, during crisis conditions, instituiotn tend lends towards incremental adaptation rather than transformative change using existing rules and norms rather adding or replacing it. This establsihment is the central to the study: the Russia- Ukraine invasion may have triggered a significant increase in IGO activites in governanace while stopping well short of biding hard-law instruments that a full critical juncture would require. 
+
+Besides HI, Global Governanace Theory provides a complmentary framework. @tallberg2023 argues threats in a transnational context can generate pressure for a collboration IGO responses, but this responses frequently remain very fragemented and non-binding in practice. The forgotten of a unified governnace framework on goverence of military AI despite greater recongnitions of the risks without shows a broader pattern of soft-law dominance oberserved across the dataset (@herreraPerez2024; @sweijs2024). 
+
+A central distinction in this research is hard law and soft law regulatory approachs. Hard law refers to be legally binding instruments: Treaties, conventions and acts can be enforceable. Soft law is non bidning, principles, resolutions that carry nromative influces without any legal obligations nor enforcement. @sweijs2024 establish a distinction of foundational to evaluating progress in AI governance in millitary domain, that the current stage of international landscape is heavily dominated by soft-laws. from the 29 documents in the datasets provides a empirical basis for understadning whether post-invasion governanace outputs reflects the substantive change or the continuation of the current performances and soft-law preferences. 
+
+## Ottawa Treaty Benchmark
+This research uses the Ottawa Treaty (1997) it is the Convention on the Prohibition of the Use, Stockpiling, Production and Transfer of Anti-personnel Mines and on their Destruction to be a comparative governanace benchmark. It as been selected becuase it represents a case of crisis driven into hard law success in international security governanace. it emerged from crisis to a legally binding obligation with defined law and achieved near- universal state adoption within a short period. From the perspective of Historical Institutionalism, this treaty illustrates a case which permissive conditions were accompanied by sufficient productve conditions haivng the political will to generate transformative binding law. (@capoccia2007;@mahoney2010). 
+
+The Benchamrks will be appling not only suggest military AI governanace must follow a 100% pathway but to allow a measurable and historically ground standard aginst which current IGO responses can be assessed. However, this benchmark has fall short on governanace AI in terms of binding obligation, agreed definitions and paricipation by major AI powers. This gap establish evidnece that the critical juncture has produced institutional change but not fully transformation. This approach is consistent with existing research, which frequently reference the Ottawa Treaty as a model as a benchmark of its emerging international security governanace frameworks (@sweijs2024; @herreraPerez2024).
+
+# Limitations
+There were serveral limitations must be acknowledged. First, the Russia-Ukraine war remains ongoing, meaning some documents may be incomplete or subject to revision. As @hendrycks2025 notes, the rapid development of AI will creates challenges for governanace research, as intsituional responses may be lag behind technological relities. Second, the study only focuses on IGO-levels governanaces and does not examine States AI defence politics. Finally, the focus on five institutions, UN, NATO, EU, OECD and COE amy undeprresent governanace activities occuring in other states or bilateral forums. Despite these limitations, this study heavily reliance on official primary sources, acedmic artcles and a clearly oeperationalised theoritecial framework grounded in Historical Institutionalism and Global Governance Theory provides a rigorous and reproducible basis for its findings. 
+
+
+
+# Conclusions
+
+# Applying 
