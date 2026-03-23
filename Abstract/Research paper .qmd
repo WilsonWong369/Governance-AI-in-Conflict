@@ -9,6 +9,12 @@ date:         "January 5, 2026"
 bibliography: ../references/references.bib
 ---
 
+# Table of Content
+
+
+
+
+
 # Main Objectives and Research Question 
 The main objective of this research of the need of development of an robust hard law on the international stage regarding conflict using Artificial Intelligence (AI). 
 
@@ -71,7 +77,13 @@ The Benchamrks will be appling not only suggest military AI governanace must fol
 # Limitations
 There were serveral limitations must be acknowledged. First, the Russia-Ukraine war remains ongoing, meaning some documents may be incomplete or subject to revision. As @hendrycks2025 notes, the rapid development of AI will creates challenges for governanace research, as intsituional responses may be lag behind technological relities. Second, the study only focuses on IGO-levels governanaces and does not examine States AI defence politics. Finally, the focus on five institutions, UN, NATO, EU, OECD and COE amy undeprresent governanace activities occuring in other states or bilateral forums. Despite these limitations, this study heavily reliance on official primary sources, acedmic artcles and a clearly oeperationalised theoritecial framework grounded in Historical Institutionalism and Global Governance Theory provides a rigorous and reproducible basis for its findings. 
 
+# 4.0 Findings 
 
+    This presents the empirical findings drawn from the systematic analysis of 29 offical intergovernmental Organizations (IGO) documents produced between 2018 and 2025 with the selected five international institutions: the United Nations (UN), The North Atlantic Treaty Organizations (NATO), The European Union (EU), The Organisation for Economic Co-operation Development (OECD) and the Council of Europe (COE). The findings address the research questions of whether the Russia- Ukraine war constitutes a critical juncture in the global governanace of military Artificial Intelligence (AI). 
+
+# 4.1 Finding one:
+
+The significant and direct finding is the sharp increase in IGO governanace outputs after february 24, 2022 Russian invasion of Ukraine.
 
 # Conclusions
 
