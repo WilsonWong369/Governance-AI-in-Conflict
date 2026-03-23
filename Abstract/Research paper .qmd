@@ -1,6 +1,6 @@
 ---
 Research Title: "Conflict of AI Governance"
-title:        "Abstract and Introduction" 
+title:        "AI Governanace in Warfare"
 author:       "Wilson Wong"
 course:       "Governance of AI in Conflict"
 professor:    "Dr. Julian Campisi"
