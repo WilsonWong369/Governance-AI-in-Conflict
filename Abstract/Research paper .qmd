@@ -3,9 +3,10 @@ Research Title: "Conflict of AI Governance"
 title:        "AI Governanace in Warfare"
 author:       "Wilson Wong"
 course:       "Governance of AI in Conflict"
-professor:    "Dr. Julian Campisi"
+professor:    "Dr. Julian Campisi, Dr. Titilayo Soremi"
 course_code:  "POLD02"
-date:         "January 5, 2026"
+Course_Name: "Independent Senior Research" 
+date:         "April 6th, 2026"
 bibliography: ../references/references.bib
 ---
 
@@ -24,8 +25,7 @@ Main Research Question: Has the Ukraine–Russia war led international instituti
 Hypothesis: After a major security crisis intergovernmental organizations (UN, NATO) will produce more AI focused governance outputs (reports, committee mandates, or draft legal texts) in the two years following the crisis than in the two years before it. 
 
 # Abstract
-Artificial Intelligence (AI) has rapidly integrated into our world of conflict by reshaping how warfare works, targeting systems, and the deployment of military technology. The 2022 Russia-Ukraine war highlighted significant challenges regarding both weapons systems and the legal and governance frameworks governing AI use, raising concerns about accountability, the rules of war, and the adequacy of current international regulatory frameworks. Despite the growing usage of AI in military contexts, there remains limited empirical analysis of whether international institutions have meaningfully adapted their governance responses considering this conflict.
-This study will look towards the Ukraine-Russia war as a critical juncture in the global governance of military AI. Drawing on theories such as global governance and historical institutionalism, this research analyzes how international institutions respond to major security shocks and technological disruptions, especially regarding the distinction between hard-law and soft-law regulatory approaches. The study will use a qualitative research design based on document and thematic analysis of official government documents, reports, and statements issued by international institutions between 2015-2025. It will test the hypothesis that intergovernmental organizations produce a greater number of AI governance outputs in the two years after the invasion started. By examining the content of these outputs, this research assesses whether institutional responses represent incremental adaptation or more substantial governance change. The findings aim to contribute to broader debates on AI governance, global security, and institutional change in the context of modern warfare.
+Artificial Intelligence (AI) has rapidly integrated into our world of conflict by reshaping how warfare works, targeting systems, and the deployment of military technology. The 2022 Russia-Ukraine war highlighted significant challenges regarding both weapons systems and the legal and governance frameworks governing AI use, raising concerns about accountability, the rules of war, and the adequacy of current international regulatory frameworks. Despite the growing usage of AI in military contexts, there remains limited empirical analysis of whether international institutions have meaningfully adapted their governance responses considering this conflict. This study will look towards the Ukraine-Russia war as a critical juncture in the global governance of military AI. Drawing on theories such as global governance and historical institutionalism, this research analyzes how international institutions respond to major security shocks and technological disruptions, especially regarding the distinction between hard-law and soft-law regulatory approaches. The study will use a qualitative research design based on document and thematic analysis of official government documents, reports, and statements issued by international institutions between 2015-2025. It will test the hypothesis that intergovernmental organizations produce a greater number of AI governance outputs in the two years after the invasion started. By examining the content of these outputs, this research assesses whether institutional responses represent incremental adaptation or more substantial governance change. The findings aim to contribute to broader debates on AI governance, global security, and institutional change in the context of modern warfare.
 
 # Introduction
 
@@ -81,9 +81,9 @@ There were serveral limitations must be acknowledged. First, the Russia-Ukraine 
 
     This presents the empirical findings drawn from the systematic analysis of 29 offical intergovernmental Organizations (IGO) documents produced between 2018 and 2025 with the selected five international institutions: the United Nations (UN), The North Atlantic Treaty Organizations (NATO), The European Union (EU), The Organisation for Economic Co-operation Development (OECD) and the Council of Europe (COE). The findings address the research questions of whether the Russia- Ukraine war constitutes a critical juncture in the global governanace of military Artificial Intelligence (AI). 
 
-# 4.1 Finding one:
+### 4.1 Finding one:
 
-The significant and direct finding is the sharp increase in IGO governanace outputs after february 24, 2022 Russian invasion of Ukraine.
+The significant and direct finding is the sharp increase in IGO governanace outputs after february 24, 2022 Russian invasion of Ukraine.before the invasions the dataset only have four documents produced across the period of 2018-2021, with no documents has been publish before 2017. After the invasion has starts from 2022 to 2025, the dataset contains more 25 additional documents leading a 500% increases in governanace actions. This increase is not evenly spread in the post-invasion period. 2024 is surges occurs which alone accoutns 12 of the 29 documents in the full dataset, follwed by 2025 which accounts for a further nine documents. The years 2022 and 2023 produced modest outpus as it is suggesting the gvoernanace response built progessively rather than emerging immediately. 
 
 # Conclusions
 
