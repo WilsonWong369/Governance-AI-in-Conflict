@@ -1,24 +1,32 @@
 ---
 Research Title: "Conflict of AI Governance"
-title:        "AI Governanace in Warfare"
-author:       "Wilson Wong"
-course:       "Governance of AI in Conflict"
-professor:    "Dr. Julian Campisi, Dr. Titilayo Soremi"
-course_code:  "POLD02"
+title: "AI Governance in Warfare"
+author: "Wilson Wong"
+course: "Governance of AI in Conflict"
+professor: "Dr. Julian Campisi, Dr. Titilayo Soremi"
+course_code: "POLD02"
 Course_Name: "Independent Senior Research" 
-date:         "April 6th, 2026"
+date: "April 6th, 2026"
 bibliography: ../references/references.bib
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: true
+  pdf:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    documentclass: article
+    geometry:
+      - margin=1in
+    fontsize: 12pt
+    linestretch: 1.5
 ---
-
-# Table of Content
-
-
-
-
 
 # Main Objectives and Research Question 
 The main objective of this research of the need of development of an robust hard law on the international stage regarding conflict using Artificial Intelligence (AI). 
-
 
 Main Research Question: Has the Ukraine–Russia war led international institutions to change or strengthen their governance frameworks for military AI?
 
@@ -29,19 +37,8 @@ Artificial Intelligence (AI) has rapidly integrated into our world of conflict b
 
 # Introduction
 
-
-
-
-
-
-
-# Literature Review (Complete) But need for a review
-
-
-
-
-
-
+# Literature Review
+(Complete) But need for a review
 
 # Methodology Section 
 
@@ -52,7 +49,6 @@ This selection is to only focus on IGO-level documents for this empirical litera
 
 ## Process Tracing
 This study will employs the process tracing as the core part of the analytical strategy. Process tracing a method to identify and evaluate the causal mechanism connecting an independent variable, february 2022 invasion to dependent variable the quantity of binding character of IGO AI governanace outputs. it is different from descriptvie approaches, process tracing allows this research to examine whether it can idenifiy any causal pathway links a critical juncture to the institutional change @capoccia2007. 
-
 
 ## Dataset Construction 
 This study conduct of 29 offical IGO documents proced betwen 2017- 2025 across five international organizations: the United Nations (UN), North Atlantic Treaty Organizatiosn (NATO), European Union (EU), rganisation for Economic Co-operation and Development (OECD) and the Council of Europe (COE). These institutions is selected because it preprent the primary multillateral governance in which how Artifical Intelligence governanace norms are being establish as they collectively account for the greater and widely cited governance outputs in the period under study (@tallberg2023;@osimen2024). 
@@ -77,14 +73,14 @@ The Benchamrks will be appling not only suggest military AI governanace must fol
 # Limitations
 There were serveral limitations must be acknowledged. First, the Russia-Ukraine war remains ongoing, meaning some documents may be incomplete or subject to revision. As @hendrycks2025 notes, the rapid development of AI will creates challenges for governanace research, as intsituional responses may be lag behind technological relities. Second, the study only focuses on IGO-levels governanaces and does not examine States AI defence politics. Finally, the focus on five institutions, UN, NATO, EU, OECD and COE amy undeprresent governanace activities occuring in other states or bilateral forums. Despite these limitations, this study heavily reliance on official primary sources, acedmic artcles and a clearly oeperationalised theoritecial framework grounded in Historical Institutionalism and Global Governance Theory provides a rigorous and reproducible basis for its findings. 
 
-# 4.0 Findings 
+# Findings 
 
-    This presents the empirical findings drawn from the systematic analysis of 29 offical intergovernmental Organizations (IGO) documents produced between 2018 and 2025 with the selected five international institutions: the United Nations (UN), The North Atlantic Treaty Organizations (NATO), The European Union (EU), The Organisation for Economic Co-operation Development (OECD) and the Council of Europe (COE). The findings address the research questions of whether the Russia- Ukraine war constitutes a critical juncture in the global governanace of military Artificial Intelligence (AI). 
+This presents the empirical findings drawn from the systematic analysis of 29 offical intergovernmental Organizations (IGO) documents produced between 2018 and 2025 with the selected five international institutions: the United Nations (UN), The North Atlantic Treaty Organizations (NATO), The European Union (EU), The Organisation for Economic Co-operation Development (OECD) and the Council of Europe (COE). The findings address the research questions of whether the Russia- Ukraine war constitutes a critical juncture in the global governanace of military Artificial Intelligence (AI). 
 
-### 4.1 Finding one:
+## Finding One: Increased IGO Activity
 
 The significant and direct finding is the sharp increase in IGO governanace outputs after february 24, 2022 Russian invasion of Ukraine.before the invasions the dataset only have four documents produced across the period of 2018-2021, with no documents has been publish before 2017. After the invasion has starts from 2022 to 2025, the dataset contains more 25 additional documents leading a 500% increases in governanace actions. This increase is not evenly spread in the post-invasion period. 2024 is surges occurs which alone accoutns 12 of the 29 documents in the full dataset, follwed by 2025 which accounts for a further nine documents. The years 2022 and 2023 produced modest outpus as it is suggesting the gvoernanace response built progessively rather than emerging immediately. 
 
 # Conclusions
 
-# Applying 
+# References
