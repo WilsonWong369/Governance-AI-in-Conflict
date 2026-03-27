@@ -22,7 +22,7 @@ format:
     geometry:
       - margin=1in
     fontsize: 12pt
-    linestretch: 1.5
+    linestretch: 2
 ---
 
 # Main Objectives and Research Question 
@@ -80,6 +80,8 @@ This presents the empirical findings drawn from the systematic analysis of 29 of
 ## Finding One: Increased IGO Activity
 
 The significant and direct finding is the sharp increase in IGO governanace outputs after february 24, 2022 Russian invasion of Ukraine.before the invasions the dataset only have four documents produced across the period of 2018-2021, with no documents has been publish before 2017. After the invasion has starts from 2022 to 2025, the dataset contains more 25 additional documents leading a 500% increases in governanace actions. This increase is not evenly spread in the post-invasion period. 2024 is surges occurs which alone accoutns 12 of the 29 documents in the full dataset, follwed by 2025 which accounts for a further nine documents. The years 2022 and 2023 produced modest outpus as it is suggesting the gvoernanace response built progessively rather than emerging immediately. 
+
+The pattern establish is consisent with @capoccia2007 which describes the elements of cirtical juncture: a period of institutional disruption may not necessarily able to estalish immediate governanace change, but rather open for opporunities on the institional activity follows. The icnrease of trajectory after the invasions provides an strong empirical understanding for the hypothesis that Russia-Ukraine provide a major priority shifts in IGO governanace hehaviour. 
 
 # Conclusions
 
