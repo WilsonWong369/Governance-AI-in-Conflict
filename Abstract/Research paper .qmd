@@ -24,18 +24,20 @@ format:
     fontsize: 12pt
     linestretch: 2
 ---
-
-# Main Objectives and Research Question 
-The main objective of this research of the need of development of an robust hard law on the international stage regarding conflict using Artificial Intelligence (AI). 
-
-Main Research Question: Has the Ukraine–Russia war led international institutions to change or strengthen their governance frameworks for military AI?
-
-Hypothesis: After a major security crisis intergovernmental organizations (UN, NATO) will produce more AI focused governance outputs (reports, committee mandates, or draft legal texts) in the two years following the crisis than in the two years before it. 
+ 
 
 # Abstract
 Artificial Intelligence (AI) has rapidly integrated into our world of conflict by reshaping how warfare works, targeting systems, and the deployment of military technology. The 2022 Russia-Ukraine war highlighted significant challenges regarding both weapons systems and the legal and governance frameworks governing AI use, raising concerns about accountability, the rules of war, and the adequacy of current international regulatory frameworks. Despite the growing usage of AI in military contexts, there remains limited empirical analysis of whether international institutions have meaningfully adapted their governance responses considering this conflict. This study will look towards the Ukraine-Russia war as a critical juncture in the global governance of military AI. Drawing on theories such as global governance and historical institutionalism, this research analyzes how international institutions respond to major security shocks and technological disruptions, especially regarding the distinction between hard-law and soft-law regulatory approaches. The study will use a qualitative research design based on document and thematic analysis of official government documents, reports, and statements issued by international institutions between 2015-2025. It will test the hypothesis that intergovernmental organizations produce a greater number of AI governance outputs in the two years after the invasion started. By examining the content of these outputs, this research assesses whether institutional responses represent incremental adaptation or more substantial governance change. The findings aim to contribute to broader debates on AI governance, global security, and institutional change in the context of modern warfare.
 
 # Introduction
+
+Artifical Intelligence (AI) has become one of the newly fast technologies advancement of the 21st century. It has reshape industries, governance system and most significantly the norms of armed conflict. Autonomous targeting systems, battlefieled intelligence patforms, drones, cyber operations has one element is has improve significant beucase of AI have icnreasingly become standard features of modern warfare. 
+
+The ongoing conlifct Russia- Ukraine war with the Russia invasion of February 24, 2022 has placed these developments at the forefront of international political debate. The conflict has been described as the first large-scale conflict which AI-enabled technologies play a very key role in this conflict in the military operations, rasing urgent questions about accountability, protection of civilians, and the adequcy of current International regulatory framework (@RakhmetovMurzagulova2025;@kostenko2022).
+
+However, as the war progress the global governanace of military AI remians fragemnted and largely non-binding. The governanace gap poses serious risks to internationa peace and security (@tallberg2023;@sweijs2024). 
+
+This study ask a direct empircal question: Has Russia- Ukraine war constituted a critical juncture in the global governanace of Military AI? Drawing on the Historical Institutionalism (HI) and GLobal Governanace Theory, this research examines of the connection how international institutions have responded to the invasion, test whether a measurable surge in governanace outputs occured, to analysis whether the outputs represent substantive transformative change or it is only a incremental adaptation within existing law frameworks. 
 
 # Literature Review
 (Complete) But need for a review
@@ -84,5 +86,15 @@ The significant and direct finding is the sharp increase in IGO governanace outp
 The pattern establish is consisent with @capoccia2007 which describes the elements of cirtical juncture: a period of institutional disruption may not necessarily able to estalish immediate governanace change, but rather open for opporunities on the institional activity follows. The icnrease of trajectory after the invasions provides an strong empirical understanding for the hypothesis that Russia-Ukraine provide a major priority shifts in IGO governanace hehaviour. 
 
 # Conclusions
+
+The study set out to answer a single question: Does the Russia- Ukraine war constitute a critical juncture in the global governanace of military AI? The answer, would be yes but only partially after anlysising 29 offical IGO documents between 2015- 2025. 
+
+The invasions did triggerd a 525% increase in IGO governanace documents post-invasion. while it is confim that the conflict constituted a permissive condition of a path-dependent institutional constraints lossened and governanace activity has expecited especially the 5 major internatioanl institutions. The UN, NATO, EU, OECD and COE which prodced more governanace outputs in the past three years follwing of the invasion in 2022. It represents a measurable and historically significant break from the pre-invasion trajectory, consistent with the theoretical definition of a crtiical juncture by @capoccia2007. However, the post-invasion governanace increase is not a coincidence but rather a direct institutional response to the governanace gap exposed by the conflict. 
+
+However, the prodcutive for the transformative governanace change is not sufficient. 83% of post-invasion outputs are non-binding, soft- law. which there is no agreement that can be enforceable by IGOs. The measured against the Ottawa Treaty benchmark, military AI governanace in 2025 does not meet the conditions of the binding governanace of the 1997 Mine Ban Treaty demonstrated were achievable. The juncture produce on the path of institutional reinforcement rather than institutional transformation relates to @mahoney2010 account of incremental change and @long2025 typology of reinforcement. 
+
+The contribution of the study is threefold. Firstly it provides a systematic document base evidence of whether the Russia- Ukraine war shaped of how should the world governs AI in conflict. Theoretically, it demostrates the applicability of Historical Institutionalism's critical juncture framework to the domain of military AI governanace. With the perspective of policy there is specific condition has been identifies which is the political will among major Ai power, binding treaty negoitation would be required to close the governaance gap documented in this study. 
+
+Future research should examine whether the 2026- 2028 period can produces hard law whether the governanace frameworks adopted by european institutions can serves as an experiences and framework on a multilarteral agreement to show a insitutional transformation. The Russia-Ukraine war showed that the question fo military AI governanace can no longer be deferred. but what is not yet shown is whether the international community has the political will to produce this framework internationally it. 
 
 # References
