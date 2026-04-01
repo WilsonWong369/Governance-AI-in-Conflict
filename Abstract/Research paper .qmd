@@ -39,6 +39,11 @@ However, as the war progress the global governanace of military AI remians frage
 
 This study ask a direct empircal question: Has Russia- Ukraine war constituted a critical juncture in the global governanace of Military AI? Drawing on the Historical Institutionalism (HI) and GLobal Governanace Theory, this research examines of the connection how international institutions have responded to the invasion, test whether a measurable surge in governanace outputs occured, to analysis whether the outputs represent substantive transformative change or it is only a incremental adaptation within existing law frameworks. 
 
+This study will focus on three sprecific contributions to the literature. First, it provides an empirical evidence through a dataset of 29 offical IGO documents spanning 2015-2025 on whether and how institutional responses to the invasion change. Second, it applies Historical Institutionalism critical juncture framewrok to the domain of military AI governanace, which remains very underexplored in the existing scholarship. Lastly, it uses 1997 Ottawa Treaty on the prohibition of landmins as a governanace benchmark, offering a historically grounded standard against which establihsment of the current responses can be assessed. 
+
+The paper will as follows. Section 2 reviews the relevant literature on AI governanace, Historical Institutionalism and the Ottawa Treaty analogy. Section 3 outlines the methodology. Section 4 presents the empirical findings, supported by charts and figures. Section 5 provides a discussion and analysis of thoses findings. 
+
+
 # Literature Review
 (Complete) But need for a review
 
