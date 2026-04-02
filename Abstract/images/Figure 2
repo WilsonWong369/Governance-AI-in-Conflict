@@ -1,0 +1,108 @@
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import numpy as np
+
+# ── Data by institution per year
+years = [2018, 2019, 2021, 2022, 2023, 2024, 2025]
+x     = np.arange(len(years))
+
+data = {
+    'UN':   [1, 1, 0, 1, 1, 8, 6],
+    'NATO': [0, 0, 1, 1, 0, 2, 0],
+    'EU':   [0, 0, 0, 0, 1, 1, 1],
+    'OECD': [0, 1, 0, 0, 0, 1, 0],
+    'COE':  [0, 0, 0, 0, 0, 2, 0],
+}
+colors = {
+    'UN':   '#00C8E8',
+    'NATO': "#E4E4E4",
+    'EU':   "#F5F114",
+    'OECD': '#00E87A',
+    'COE':  '#FF4466',
+}
+totals = [sum(data[k][i] for k in data) for i in range(len(years))]
+
+# ── Figure
+fig, ax = plt.subplots(figsize=(13, 7), facecolor='white')
+ax.set_facecolor('#F8F9FA')
+for sp in ax.spines.values():
+    sp.set_color('#DDDDDD')
+
+# Stacked bars
+bar_w = 0.55
+bottoms = np.zeros(len(years))
+for inst in ['UN', 'NATO', 'EU', 'OECD', 'COE']:
+    vals = np.array(data[inst], dtype=float)
+    ax.bar(x, vals, bar_w, bottom=bottoms,
+           color=colors[inst], edgecolor='white', linewidth=0.8,
+           label=inst, zorder=3)
+    bottoms += vals
+
+# Total line
+ax.plot(x, totals, color='#1a1a2e', linewidth=2.2, zorder=5,
+        marker='o', markersize=7,
+        markerfacecolor='#1a1a2e', markeredgecolor='white',
+        markeredgewidth=1.5)
+for i, t in enumerate(totals):
+    if t > 0:
+        ax.text(x[i], t + 0.25, str(t), ha='center', va='bottom',
+                fontsize=10, fontweight='bold', fontfamily='Arial',
+                color='#1a1a2e', zorder=6)
+
+# Invasion marker
+inv_idx = years.index(2022)
+ax.axvspan(inv_idx - 0.45, len(years) - 0.55,
+           color='#FF4466', alpha=0.06, zorder=1)
+ax.axvline(inv_idx - 0.45, color='#FF4466',
+           linewidth=1.8, linestyle='--', alpha=0.7, zorder=4)
+ax.text(inv_idx - 0.40, ax.get_ylim()[1] * 0.97,
+        '⚠ Feb 2022 Invasion',
+        fontsize=9, fontfamily='Arial', color='#CC2244',
+        fontweight='bold', va='top')
+
+# Axes formatting
+ax.set_xticks(x)
+ax.set_xticklabels([str(y) for y in years],
+                   fontsize=11, fontfamily='Arial')
+ax.set_yticks(range(0, 16, 2))
+ax.set_yticklabels([str(v) for v in range(0, 16, 2)],
+                   fontsize=11, fontfamily='Arial')
+ax.set_ylim(0, 15)
+ax.set_ylabel('Number of Documents Published',
+              fontsize=11, fontfamily='Arial', color='#333333', labelpad=8)
+ax.set_xlabel('Year', fontsize=11, fontfamily='Arial',
+              color='#333333', labelpad=8)
+ax.grid(axis='y', color='#DDDDDD', linewidth=0.8, zorder=0)
+ax.set_axisbelow(True)
+ax.tick_params(colors='#555555', length=0)
+
+# Zone labels
+ax.text(1.0, 13.5, 'PRE-2022  ·  4 docs',
+        fontsize=9.5, fontfamily='Arial', color='#0066AA',
+        fontweight='bold', ha='center')
+ax.text(4.5, 13.5, 'POST-2022  ·  25 docs',
+        fontsize=9.5, fontfamily='Arial', color='#CC2244',
+        fontweight='bold', ha='center')
+
+# Legend
+inst_patches = [mpatches.Patch(color=colors[k], label=k)
+                for k in ['UN', 'NATO', 'EU', 'OECD', 'COE']]
+total_line = plt.Line2D([0], [0], color='#1a1a2e', linewidth=2,
+                         marker='o', markersize=5, label='Total')
+ax.legend(handles=inst_patches + [total_line],
+          loc='upper left', fontsize=10, frameon=True,
+          edgecolor='#cccccc', facecolor='white',
+          ncol=6, handlelength=1.2)
+
+ax.set_title('IGO AI Governance Documents by Year and Institution\n'
+             'AI Governance in Warfare — 29 Documents (2018–2025)',
+             fontsize=13, fontweight='bold', fontfamily='Arial',
+             color='#1a1a2e', pad=14)
+
+plt.tight_layout()
+plt.savefig('chart_publication_date.png', dpi=300,
+            bbox_inches='tight', facecolor='white')
+plt.savefig('chart_publication_date.pdf',
+            bbox_inches='tight', facecolor='white')
+print('Saved: chart_publication_date.png / .pdf')
+plt.show()
