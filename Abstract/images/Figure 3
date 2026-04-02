@@ -1,0 +1,113 @@
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import numpy as np
+
+# ── Three benchmark dimensions
+dimensions = [
+    'Binding\nObligation',
+    'Agreed\nDefinition',
+    'Major-Power\nParticipation',
+]
+
+# Score: 0 = Not Met, 0.5 = Partial, 1 = Fully Met
+ottawa_scores = [1.0, 1.0, 1.0]
+milai_scores  = [0.2, 0.1, 0.05]   # near-zero to show gap visually
+
+ottawa_labels = ['Binding Treaty\nAchieved', 'Universal\nDefinition', 'Near-Universal\nAdoption']
+milai_labels  = ['Soft-Law Only\n(83%)', 'No Agreed\nDefinition', 'US / Russia /\nChina Absent']
+
+x = np.arange(len(dimensions))
+w = 0.32
+
+COLOR_OTTAWA = '#00A86B'
+COLOR_MILAI  = '#CC2244'
+COLOR_BG     = '#F8F9FA'
+
+# ── Figure
+fig, ax = plt.subplots(figsize=(13, 7), facecolor='white')
+ax.set_facecolor(COLOR_BG)
+for sp in ax.spines.values():
+    sp.set_color('#DDDDDD')
+
+bars_o = ax.bar(x - w/2, ottawa_scores, w,
+                color=COLOR_OTTAWA, edgecolor='white',
+                linewidth=0.8, label='Ottawa Treaty (1997)', zorder=3)
+bars_m = ax.bar(x + w/2, milai_scores,  w,
+                color=COLOR_MILAI, edgecolor='white',
+                linewidth=0.8, label='Military AI Governance (2022–2025)', zorder=3)
+
+# Ottawa labels inside bars
+for bar, lbl in zip(bars_o, ottawa_labels):
+    ax.text(bar.get_x() + bar.get_width()/2,
+            bar.get_height() / 2,
+            '✓\n' + lbl, ha='center', va='center',
+            fontsize=9, fontfamily='Arial',
+            fontweight='bold', color='white', linespacing=1.4)
+
+# Military AI labels — above bars (they're tiny)
+for bar, lbl in zip(bars_m, milai_labels):
+    ax.text(bar.get_x() + bar.get_width()/2,
+            bar.get_height() + 0.04,
+            '✗\n' + lbl, ha='center', va='bottom',
+            fontsize=9, fontfamily='Arial',
+            fontweight='bold', color=COLOR_MILAI, linespacing=1.4)
+
+# Horizontal "benchmark" line at 1.0
+ax.axhline(1.0, color=COLOR_OTTAWA, linewidth=1.2,
+           linestyle=':', alpha=0.6, zorder=2)
+ax.text(len(dimensions) - 0.05, 1.01,
+        'Ottawa Treaty\nbenchmark',
+        fontsize=8.5, fontfamily='Arial',
+        color=COLOR_OTTAWA, ha='right', va='bottom',
+        fontstyle='italic')
+
+# Gap annotation arrows for each dimension
+for i in range(len(dimensions)):
+    o = ottawa_scores[i]
+    m = milai_scores[i]
+    gap = o - m
+    ax.annotate('',
+        xy=(x[i] + w/2, m + gap * 0.9),
+        xytext=(x[i] + w/2, m + 0.02),
+        arrowprops=dict(arrowstyle='->', color='#888888',
+                        lw=1.2, linestyle='dashed'))
+    ax.text(x[i] + w/2 + 0.07, m + gap * 0.5,
+            f'Gap\n{gap*100:.0f}%',
+            ha='left', va='center',
+            fontsize=8, fontfamily='Arial', color='#888888')
+
+# Axes
+ax.set_xticks(x)
+ax.set_xticklabels(dimensions, fontsize=12, fontfamily='Arial')
+ax.set_ylim(0, 1.35)
+ax.set_yticks([0, 0.25, 0.5, 0.75, 1.0])
+ax.set_yticklabels(['Not Met', '25%', '50%', '75%', 'Fully Met'],
+                   fontsize=10, fontfamily='Arial')
+ax.set_ylabel('Benchmark Achievement Level',
+              fontsize=11, fontfamily='Arial',
+              color='#333333', labelpad=8)
+ax.grid(axis='y', color='#DDDDDD', linewidth=0.8, zorder=0)
+ax.set_axisbelow(True)
+ax.tick_params(colors='#555555', length=0)
+
+# Legend
+o_patch = mpatches.Patch(color=COLOR_OTTAWA,
+    label='Ottawa Treaty (1997)  —  All 3 conditions met')
+m_patch = mpatches.Patch(color=COLOR_MILAI,
+    label='Military AI Governance (2022–2025)  —  No conditions met')
+ax.legend(handles=[o_patch, m_patch], loc='upper right',
+          fontsize=10, frameon=True, edgecolor='#cccccc',
+          facecolor='white', handlelength=1.4)
+
+ax.set_title('Ottawa Treaty Benchmark vs Military AI Governance\n'
+             'Three Critical Dimensions: Binding Obligation · Agreed Definition · Major-Power Participation',
+             fontsize=13, fontweight='bold', fontfamily='Arial',
+             color='#1a1a2e', pad=14)
+
+plt.tight_layout()
+plt.savefig('chart_ottawa_benchmark.png', dpi=300,
+            bbox_inches='tight', facecolor='white')
+plt.savefig('chart_ottawa_benchmark.pdf',
+            bbox_inches='tight', facecolor='white')
+print('Saved: chart_ottawa_benchmark.png / .pdf')
+plt.show()
