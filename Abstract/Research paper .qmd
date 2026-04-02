@@ -133,27 +133,6 @@ The most significant and direct finding is the sharp increase in IGO governance 
 
 This pattern is consistent with @capoccia2007's description of critical juncture elements: a period of institutional disruption may not necessarily produce immediate governance change, but rather opens opportunities for increased institutional activity that follows. The increasing trajectory after the invasion provides strong empirical support for the hypothesis that Russia-Ukraine represented a major priority shift in IGO governance behavior. 
 
-![IGO governance outputs increased 525% after the invasion](images/governance-surge.png){#fig-surge width=80%}
-
-As shown in @fig-surge, the increase was dramatic.
-
-#| label: fig-timeline
-#| fig-cap: "Timeline of IGO AI Governance Documents"
-
-import matplotlib.pyplot as plt
-import numpy as np
-
-years = ['2018-2021', '2022', '2023', '2024', '2025']
-documents = [4, 2, 2, 12, 9]
-
-plt.figure(figsize=(10, 6))
-plt.bar(years, documents, color=['red' if i == 0 else 'blue' for i in range(len(years))])
-plt.title('IGO AI Governance Documents by Year')
-plt.ylabel('Number of Documents')
-plt.xlabel('Year')
-plt.tight_layout()
-plt.show()
-
 ## Soft-Law Dominance
 
 ![Hard-Law vs Soft-Law Distribution in AI Governance Documents](images/chart_hardsoft_pie.png){#fig-hardsoft width=80% fig-align="center"}
