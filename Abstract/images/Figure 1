@@ -1,0 +1,61 @@
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+
+# ── Data
+labels = ['Soft-Law\n(24 documents)', 'Hard-Law\n(5 documents)']
+sizes  = [24, 5]
+colors = ['#F5D800', "#1D8494"]
+explode = (0.03, 0.06)
+
+# ── Figure
+fig, ax = plt.subplots(figsize=(8, 6), facecolor='white')
+ax.set_facecolor('white')
+
+wedges, texts, autotexts = ax.pie(
+    sizes,
+    labels=None,
+    colors=colors,
+    explode=explode,
+    autopct='%1.0f%%',
+    startangle=90,
+    counterclock=False,
+    wedgeprops=dict(linewidth=2, edgecolor='white'),
+    pctdistance=0.70,
+)
+
+for at in autotexts:
+    at.set_fontsize(16)
+    at.set_fontweight('bold')
+    at.set_fontfamily('Arial')
+    at.set_color('#1a1a1a')
+
+# Centre circle (donut)
+centre = plt.Circle((0, 0), 0.48, fc='white', linewidth=1.5, edgecolor='#dddddd')
+ax.add_patch(centre)
+
+# Centre label
+ax.text(0, 0.08, '29', ha='center', va='center',
+        fontsize=30, fontweight='bold', fontfamily='Arial', color='#1a1a2e')
+ax.text(0, -0.14, 'Documents', ha='center', va='center',
+        fontsize=11, fontfamily='Arial', color='#555555')
+
+# Legend
+legend_patches = [
+    mpatches.Patch(color='#F5D800', label='Soft-Law  —  24 docs  (83%)'),
+    mpatches.Patch(color='#00C8E8', label='Hard-Law  —  5 docs  (17%)'),
+]
+ax.legend(handles=legend_patches, loc='lower center',
+          bbox_to_anchor=(0.5, -0.10), ncol=2,
+          fontsize=11, frameon=True,
+          edgecolor='#cccccc', facecolor='white')
+
+ax.set_title('Hard-Law vs Soft-Law Distribution\nAI Governance in Warfare — 29 IGO Documents (2018–2025)',
+             fontsize=13, fontweight='bold', fontfamily='Arial',
+             color='#1a1a2e', pad=18)
+
+plt.tight_layout()
+plt.savefig('chart_hardsoft_pie.png', dpi=300, bbox_inches='tight',
+            facecolor='white')
+plt.savefig('chart_hardsoft_pie.pdf', bbox_inches='tight', facecolor='white')
+print('Saved: chart_hardsoft_pie.png / .pdf')
+plt.show()
