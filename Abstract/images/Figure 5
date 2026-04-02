@@ -1,0 +1,26 @@
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import numpy as np
+
+institutions = ['UN', 'NATO', 'EU', 'OECD', 'COE']
+pre  = [1, 1, 0, 1, 0]
+post = [14, 3, 3, 1, 2]
+pre_total  = sum(pre)   # 3
+post_total = sum(post)  # 25
+increase   = round((post_total - pre_total) / pre_total * 100)  # 525%
+
+fig, axes = plt.subplots(1, 2, figsize=(12, 5),
+                          gridspec_kw={'width_ratios': [2, 1]})
+fig.patch.set_facecolor('white')
+
+# ── LEFT: grouped bar chart ──────────────────────────────────────────────────
+ax = axes[0]
+ax.set_facecolor('white')
+
+x = np.arange(len(institutions))
+w = 0.35
+
+bars_pre  = ax.bar(x - w/2, pre,  w, label='Pre-2022',
+                   color='#ADB5BD', edgecolor='white', zorder=3)
