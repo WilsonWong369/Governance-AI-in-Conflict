@@ -1,0 +1,89 @@
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+import numpy as np
+
+# ── Data
+institutions = ['UN', 'NATO', 'EU', 'OECD', 'COE', 'TOTAL']
+pre  = [2, 1, 0, 1, 0, 4]
+post = [16, 3, 3, 1, 2, 25]
+
+colors_pre  = '#6BA3C8'
+colors_post = '#1a5c8a'
+color_total_pre  = '#AAAAAA'
+color_total_post = '#444444'
+
+x = np.arange(len(institutions))
+w = 0.36
+
+# ── Figure
+fig, ax = plt.subplots(figsize=(13, 7), facecolor='white')
+ax.set_facecolor('#F8F9FA')
+for sp in ax.spines.values():
+    sp.set_color('#DDDDDD')
+
+bar_colors_pre  = ['#6BA3C8'] * 5 + ['#AAAAAA']
+bar_colors_post = ['#1a5c8a'] * 5 + ['#444444']
+
+bars_pre  = ax.bar(x - w/2, pre,  w, color=bar_colors_pre,
+                   edgecolor='white', linewidth=0.8,
+                   label='Pre-2022', zorder=3)
+bars_post = ax.bar(x + w/2, post, w, color=bar_colors_post,
+                   edgecolor='white', linewidth=0.8,
+                   label='Post-2022', zorder=3)
+
+# Value labels
+for bar in bars_pre:
+    h = bar.get_height()
+    if h > 0:
+        ax.text(bar.get_x() + bar.get_width()/2, h + 0.2,
+                str(int(h)), ha='center', va='bottom',
+                fontsize=10, fontweight='bold',
+                fontfamily='Arial', color='#444444')
+
+for bar in bars_post:
+    h = bar.get_height()
+    if h > 0:
+        ax.text(bar.get_x() + bar.get_width()/2, h + 0.2,
+                str(int(h)), ha='center', va='bottom',
+                fontsize=10, fontweight='bold',
+                fontfamily='Arial', color='#1a1a2e')
+
+# Divider before TOTAL
+ax.axvline(4.5, color='#CCCCCC', linewidth=1.2, linestyle='--')
+ax.text(4.52, 23, 'TOTAL', fontsize=8, color='#888888',
+        fontfamily='Arial', va='top')
+
+# Axes
+ax.set_xticks(x)
+ax.set_xticklabels(institutions, fontsize=12, fontfamily='Arial')
+ax.set_ylim(0, 28)
+ax.set_yticks(range(0, 28, 4))
+ax.set_yticklabels([str(v) for v in range(0, 28, 4)],
+                   fontsize=11, fontfamily='Arial')
+ax.set_ylabel('Number of Documents', fontsize=11,
+              fontfamily='Arial', color='#333333', labelpad=8)
+ax.set_xlabel('Institution', fontsize=11,
+              fontfamily='Arial', color='#333333', labelpad=8)
+ax.grid(axis='y', color='#DDDDDD', linewidth=0.8, zorder=0)
+ax.set_axisbelow(True)
+ax.tick_params(colors='#555555', length=0)
+
+# Legend
+pre_patch  = mpatches.Patch(color='#6BA3C8', label='Pre-2022  (before Feb 24, 2022)')
+post_patch = mpatches.Patch(color='#1a5c8a', label='Post-2022  (Feb 2022 – 2025)')
+ax.legend(handles=[pre_patch, post_patch], loc='upper left',
+          fontsize=10, frameon=True, edgecolor='#cccccc',
+          facecolor='white', handlelength=1.4)
+
+ax.set_title('Pre-2022 vs Post-2022 Governance Outputs by Institution\n'
+             'AI Governance in Warfare — 525% Overall Increase Post-Invasion',
+             fontsize=13, fontweight='bold', fontfamily='Arial',
+             color='#1a1a2e', pad=14)
+
+plt.tight_layout()
+plt.savefig('chart_pre_post.png', dpi=300,
+            bbox_inches='tight', facecolor='white')
+plt.savefig('chart_pre_post.pdf',
+            bbox_inches='tight', facecolor='white')
+print('Saved: chart_pre_post.png / .pdf')
+plt.show()
