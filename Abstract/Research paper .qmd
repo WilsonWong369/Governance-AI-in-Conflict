@@ -143,9 +143,9 @@ While the war led to increased governance volume, the content of those outputs r
 
 This pattern is consistent with @long2025's finding that institutions respond by producing more of what they already know rather than negotiating binding treaty commitments. @sweijs2024 identifies this as systemic in the military AI governance space: structural disincentives for major power agreement make soft law the realistic ceiling of IGO responses. Figure 2 and 3 illustrates this distribution. 
 
-![Figure 2: Governance Output Distribution](images/Chart_publication_date.png){#fig-distribution}
+![Governance Output Distribution](images/Chart_publication_date.png){#fig-distribution}
 
-![Figure 4: Governance Output Distribution](images/chart_pre_post.png){#fig-distribution}
+![Governance Output Distribution](images/chart_pre_post.png){#fig-distribution}
 
 ## UN Dominance 
 
@@ -157,7 +157,7 @@ This reflects what @tallberg2023 describes as a structural feature of global AI 
 
 The benchmark from the Ottawa Treaty is not matched by military AI governance, which falls short on three elements of hard-law governance success. First, there is no binding military AI treaty in force. Second, major AI powers remain outside any binding military AI framework. Third, there is no fully agreed definition of military AI systems or Lethal Autonomous Weapons Systems (LAWS), unlike the Ottawa treaty which has comparable understanding and definitions that are recognized, enforced and obligated to be followed by states. 
 
-Figure 4: Ottawa
+![Governance Output Distribution](images/figure4_table.png){#fig-distribution}
 
 This finding reveals the core empirical limitation of the critical juncture identified in Finding One. While the invasion constituted a permissive condition that opened a governance window (@soifer2012), the productive conditions for transformative binding enforcement did not materialize in the post-invasion period (@herreraPerez2024; @sweijs2024). 
 
@@ -202,5 +202,3 @@ However, the productive conditions for transformative governance change were not
 The contribution of this study is threefold. Empirically, it provides systematic document-based evidence of whether the Russia-Ukraine war shaped how the world should govern AI in conflict. Theoretically, it demonstrates the applicability of Historical Institutionalism's critical juncture framework to the domain of military AI governance. From a policy perspective, specific conditions have been identified: political will among major AI powers and binding treaty negotiation would be required to close the governance gap documented in this study. 
 
 Future research should examine whether the 2026-2028 period produces hard law and whether the governance frameworks adopted by European institutions can serve as experience and frameworks for multilateral agreement toward institutional transformation. The Russia-Ukraine war showed that the question of military AI governance can no longer be deferred, but what is not yet shown is whether the international community has the political will to produce binding frameworks internationally. 
-
-# References
