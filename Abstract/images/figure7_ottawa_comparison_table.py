@@ -13,8 +13,7 @@ def create_ottawa_comparison_table():
     """Generate Ottawa Treaty vs Military AI Governance comparison table"""
     
     # ── Data ──────────────────────────────────────────────────────────────────────
-    TITLE = "Figure 4: Ottawa Treaty vs Military AI Governance — Benchmark Comparison"
-
+    
     HEADERS = ["Criterion", "Ottawa Treaty (1997)", "Military AI Governance (2025)"]
 
     ROWS = [
