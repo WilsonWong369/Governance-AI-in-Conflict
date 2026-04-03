@@ -1,0 +1,161 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+from matplotlib.patches import FancyBboxPatch
+from matplotlib.lines import Line2D
+
+# ── Colour palette ────────────────────────────────────────────────────────────
+BG        = "#0d1117"
+PINK      = "#ff4d6d"
+YELLOW    = "#f5c518"
+TEAL      = "#00e5c0"
+GREEN     = "#39d353"
+WHITE     = "#e6edf3"
+GREY      = "#8b949e"
+BOX_CYAN  = "#00bcd4"
+BOX_PINK  = "#ff4d6d"
+BOX_YEL   = "#f5c518"
+
+# ── Figure / axes ─────────────────────────────────────────────────────────────
+fig = plt.figure(figsize=(18, 10), facecolor=BG)
+
+# Main chart takes top 60 %, info boxes take bottom 35 %
+ax = fig.add_axes([0.04, 0.38, 0.92, 0.55], facecolor=BG)
+
+# ── X-axis / timeline ─────────────────────────────────────────────────────────
+YEAR_START, YEAR_END = 2015, 2026
+JUNCTURE = 2022.12          # Feb 2022 ≈ 2022.12
+
+ax.set_xlim(YEAR_START - 0.2, YEAR_END + 0.2)
+ax.set_ylim(-0.12, 1.15)
+ax.axis("off")
+
+# Horizontal timeline arrow
+ax.annotate("", xy=(YEAR_END + 0.15, 0), xytext=(YEAR_START - 0.1, 0),
+            arrowprops=dict(arrowstyle="-|>", color=TEAL, lw=1.6))
+
+# Tick labels
+for yr, lbl in [(2015, "2015"), (2019.5, "4 docs"), (JUNCTURE, "Feb 2022"),
+                (2023.3, "25 docs"), (2025.9, "2026")]:
+    color = PINK if lbl == "Feb 2022" else GREY
+    ax.text(yr, -0.07, lbl, ha="center", va="top", fontsize=9,
+            color=color, fontfamily="monospace")
+
+# ── Juncture spike (pink) ─────────────────────────────────────────────────────
+spike_x = np.array([YEAR_START, JUNCTURE - 0.05, JUNCTURE, JUNCTURE + 0.05,
+                    JUNCTURE + 0.12])
+spike_y = np.array([0,          0,                0.92,      0.05,           0])
+ax.plot(spike_x, spike_y, color=PINK, lw=2.2, zorder=5)
+
+# Vertical dashed drop-line
+ax.plot([JUNCTURE, JUNCTURE], [0, 0.92], color=PINK,
+        lw=1, ls="--", alpha=0.55, zorder=4)
+
+# ── Transformative path (dashed green) ────────────────────────────────────────
+t_x = np.linspace(JUNCTURE, YEAR_END + 0.15, 200)
+t_y = 0.65 * (1 - np.exp(-1.8 * (t_x - JUNCTURE)))   # asymptote ~0.65
+ax.plot(t_x, t_y, color=GREEN, lw=2, ls="--", zorder=4)
+ax.annotate("", xy=(YEAR_END + 0.15, t_y[-1]),
+            xytext=(YEAR_END + 0.05, t_y[-1]),
+            arrowprops=dict(arrowstyle="-|>", color=GREEN, lw=1.4))
+
+ax.text(YEAR_END + 0.18, t_y[-1] + 0.005, "Transformative", color=GREEN,
+        fontsize=9.5, fontweight="bold", va="center")
+ax.text(YEAR_END + 0.18, t_y[-1] - 0.06, "Hard-law path\n(Ottawa benchmark)",
+        color=GREEN, fontsize=7.5, va="center", style="italic")
+
+# ── Incremental path (yellow solid) ───────────────────────────────────────────
+i_x = np.linspace(JUNCTURE, YEAR_END + 0.15, 200)
+i_y = 0.30 * (1 - np.exp(-1.2 * (i_x - JUNCTURE)))   # asymptote ~0.30
+ax.plot(i_x, i_y, color=YELLOW, lw=2.5, zorder=5)
+ax.annotate("", xy=(YEAR_END + 0.15, i_y[-1]),
+            xytext=(YEAR_END + 0.05, i_y[-1]),
+            arrowprops=dict(arrowstyle="-|>", color=YELLOW, lw=1.4))
+
+ax.text(YEAR_END + 0.18, i_y[-1] + 0.005, "Incremental", color=YELLOW,
+        fontsize=9.5, fontweight="bold", va="center")
+ax.text(YEAR_END + 0.18, i_y[-1] - 0.06, "Soft-law path\n(Actual)",
+        color=YELLOW, fontsize=7.5, va="center", style="italic")
+
+# Circle marker on incremental path near plateau
+mid_idx = len(i_x) // 2 + 30
+ax.plot(i_x[mid_idx], i_y[mid_idx], "o", color=YELLOW,
+        markersize=8, zorder=6, markerfacecolor=BG, markeredgewidth=2)
+
+# ── Governance gap arrow ──────────────────────────────────────────────────────
+gap_x = 2023.6
+gap_y_top = np.interp(gap_x, t_x, t_y)
+gap_y_bot = np.interp(gap_x, i_x, i_y)
+ax.annotate("", xy=(gap_x, gap_y_bot + 0.01),
+            xytext=(gap_x, gap_y_top - 0.01),
+            arrowprops=dict(arrowstyle="<->", color=WHITE, lw=1.2))
+ax.text(gap_x + 0.08, (gap_y_top + gap_y_bot) / 2, "Governance\ngap",
+        color=WHITE, fontsize=8, va="center")
+
+# ── AI Governance callout box (top-right) ─────────────────────────────────────
+bbox_kw = dict(boxstyle="round,pad=0.4", linewidth=1.5)
+ax.text(2023.35, 1.05,
+        "AI Governance  2022–2025\n525% surge  ·  83% soft-law",
+        color=YELLOW, fontsize=9, fontweight="bold",
+        bbox=dict(facecolor="#1c1f26", edgecolor=YELLOW, **bbox_kw),
+        ha="center", va="center", zorder=7)
+
+# ── Critical Juncture callout box (top-left) ──────────────────────────────────
+cj_txt = "△  Critical Juncture\n\nFeb 24, 2022\nRussia–Ukraine Invasion"
+ax.text(2016.2, 0.85, cj_txt, color=WHITE, fontsize=8.5,
+        bbox=dict(facecolor="#1c1f26", edgecolor=PINK, **bbox_kw),
+        ha="left", va="center", zorder=7,
+        multialignment="left")
+ax.annotate("", xy=(JUNCTURE - 0.05, 0.85),
+            xytext=(2017.8, 0.85),
+            arrowprops=dict(arrowstyle="-", color=PINK, lw=1))
+
+# ── Bottom information boxes ───────────────────────────────────────────────────
+box_ax = fig.add_axes([0.04, 0.01, 0.92, 0.33], facecolor=BG)
+box_ax.set_xlim(0, 1)
+box_ax.set_ylim(0, 1)
+box_ax.axis("off")
+
+def draw_info_box(ax, x, y, w, h, title, title_color, lines, cite):
+    rect = FancyBboxPatch((x, y), w, h,
+                          boxstyle="round,pad=0.02",
+                          linewidth=1.5, edgecolor=title_color,
+                          facecolor="#13181f", zorder=2)
+    ax.add_patch(rect)
+    ax.text(x + 0.018, y + h - 0.12, title, color=title_color,
+            fontsize=10, fontweight="bold", va="top")
+    body = "\n".join(lines)
+    ax.text(x + 0.018, y + h - 0.32, body, color=WHITE,
+            fontsize=8.5, va="top", linespacing=1.55)
+    ax.text(x + 0.018, y + 0.07, cite, color=GREY,
+            fontsize=7.5, style="italic", va="bottom")
+
+# Box 1 – Critical Juncture
+draw_info_box(box_ax, 0.01, 0.05, 0.30, 0.88,
+              "Critical Juncture", BOX_CYAN,
+              ["A period of heightened uncertainty",
+               "when path-dependent constraints",
+               "loosen, enabling institutional change"],
+              "(Capoccia & Kelemen, 2007)")
+
+# Box 2 – Permissive Condition
+draw_info_box(box_ax, 0.345, 0.05, 0.30, 0.88,
+              "Permissive Condition", BOX_PINK,
+              ["Invasion opens window for change",
+               "Path-dependent constraints loosen",
+               "but change is not guaranteed"],
+              "(Soifer, 2012)")
+
+# Box 3 – AI Governance 2022–2025
+draw_info_box(box_ax, 0.68, 0.05, 0.31, 0.88,
+              "AI Governance 2022–2025", BOX_YEL,
+              ["525% surge in IGO outputs",
+               "83% remain non-binding soft-law",
+               "Partial juncture — volume not depth"],
+              "(Long & Schulz, 2025)")
+
+# ── Save ───────────────────────────────────────────────────────────────────────
+plt.savefig("/mnt/user-data/outputs/cj_diagram.png",
+            dpi=180, bbox_inches="tight", facecolor=BG)
+print("Saved → cj_diagram.png")
+plt.show()
