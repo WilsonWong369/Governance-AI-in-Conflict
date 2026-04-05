@@ -94,11 +94,6 @@ ax.legend(handles=inst_patches + [total_line],
           edgecolor='#cccccc', facecolor='white',
           ncol=6, handlelength=1.2)
 
-ax.set_title('IGO AI Governance Documents by Year and Institution\n'
-             'AI Governance in Warfare — 29 Documents (2018–2025)',
-             fontsize=13, fontweight='bold', fontfamily='Arial',
-             color='#1a1a2e', pad=14)
-
 plt.tight_layout()
 plt.savefig('chart_publication_date.png', dpi=300,
             bbox_inches='tight', facecolor='white')
