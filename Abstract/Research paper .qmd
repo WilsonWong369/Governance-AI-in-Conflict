@@ -9,7 +9,6 @@ Course_Name: "Independent Senior Research"
 date: "April 6th, 2026"
 bibliography: ../references/references.bib
 ---
- h
 
 # Abstract
 Artificial Intelligence (AI) has rapidly integrated into our world of conflict by reshaping how warfare works, targeting systems, and the deployment of military technology. The 2022 Russia-Ukraine war highlighted significant challenges regarding both weapons systems and legal and governance frameworks for AI use, raising concerns about accountability, the rules of war, and the adequacy of current international regulatory frameworks.
