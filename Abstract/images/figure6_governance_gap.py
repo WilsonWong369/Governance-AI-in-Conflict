@@ -5,26 +5,39 @@ Visualizes the path dependency and institutional change following the Russia-Ukr
 """
 
 import numpy as np
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 from matplotlib.patches import FancyBboxPatch
 from matplotlib.lines import Line2D
 import os
 
+# --- Font configuration: change FONT_NAME as needed (DejaVu Sans is available on Debian) ---
+FONT_NAME = "DejaVu Sans"
+mpl.rcParams.update({
+    "font.family": FONT_NAME,
+    "font.size": 10,
+    "font.weight": "normal",
+    "axes.titleweight": "bold",
+    "axes.labelweight": "normal",
+    "legend.fontsize": 9,
+    "figure.titlesize": 12,
+})
+
 def create_governance_gap_diagram():
     """Generate the critical juncture governance gap visualization"""
     
     # ── Color palette ────────────────────────────────────────────────────────────
-    BG        = "#0d1117"
+    BG        = "#0a2223"
     PINK      = "#ff4d6d"
     YELLOW    = "#f5c518"
     TEAL      = "#00e5c0"
-    GREEN     = "#39d353"
+    GREEN     = "#0bf031"
     WHITE     = "#e6edf3"
-    GREY      = "#8b949e"
+    GREY      = "#765dc0"
     BOX_CYAN  = "#00bcd4"
     BOX_PINK  = "#ff4d6d"
-    BOX_YEL   = "#f5c518"
+    BOX_YEL   = "#ba9e37"
 
     # ── Figure / axes ─────────────────────────────────────────────────────────────
     fig = plt.figure(figsize=(18, 10), facecolor=BG)
