@@ -75,11 +75,6 @@ ax.legend(handles=[pre_patch, post_patch], loc='upper left',
           fontsize=10, frameon=True, edgecolor='#cccccc',
           facecolor='white', handlelength=1.4)
 
-ax.set_title('Pre-2022 vs Post-2022 Governance Outputs by Institution\n'
-             'AI Governance in Warfare — 525% Overall Increase Post-Invasion',
-             fontsize=13, fontweight='bold', fontfamily='Arial',
-             color='#1a1a2e', pad=14)
-
 plt.tight_layout()
 plt.savefig('chart_pre_post.png', dpi=300,
             bbox_inches='tight', facecolor='white')
