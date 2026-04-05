@@ -8,7 +8,10 @@ course_code: "POLD02"
 Course_Name: "Independent Senior Research" 
 date: "April 6th, 2026"
 bibliography: ../references/references.bib
+nocite: "@*"
 format:
+  docx:
+    reference-doc: reference.docx
   html:
     toc: true
     toc-depth: 3
