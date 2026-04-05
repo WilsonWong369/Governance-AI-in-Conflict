@@ -143,13 +143,7 @@ def create_ottawa_comparison():
         ax.text(xpos + 0.025, legend_y, label,
                 ha='left', va='center', fontsize=8.5, color='#555',
                 transform=ax.transAxes, zorder=5)
-
-    # ── Title ─────────────────────────────────────────────────────────────────────
-    ax.text(0.5, top_y + 0.13,
-            'Figure 4: Governance Benchmark — Ottawa Treaty (1997) vs Military AI Governance (2025)',
-            ha='center', va='center', fontsize=11,
-            fontweight='bold', color=DARK, transform=ax.transAxes)
-
+   
     # ── APA citation below figure ─────────────────────────────────────────────────
     apa = (
         "Note. Benchmark criteria adapted from Sweijs & Romansky (2024) and Herrera Pérez (2024). "
