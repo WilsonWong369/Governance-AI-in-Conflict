@@ -22,7 +22,7 @@ This study looks towards the Russia-Ukraine war as a critical juncture in the gl
 
 Keywords: Artificial Intelligence, Military Governance, Critical Juncture, Historical Institutionalism, Russia-Ukraine war, Fragmentation
 
-# Title: "Artificial Intelligence in Warfare"
+# Introduction
 
 Artificial Intelligence (AI) has become one of the most fast-advancing technologies of the 21st century. It has reshaped industries, governance systems and most significantly the norms of armed conflict. Autonomous targeting systems, battlefield intelligence platforms, drones, cyber operations have a common element that has improved significantly because of AI has increasingly become standard features of modern warfare. The ongoing conflict Russia-Ukraine war on February 24, 2022 has placed these developments at the forefront of international political debate. The conflict has been described as the first large-scale military confrontation in which AI-enabled technologies play a very key role in military operations, raising urgent questions about accountability, protection of civilians, and the adequacy of current international regulatory frameworks (@RakhmetovMurzagulova2025;@kostenko2022).
 
